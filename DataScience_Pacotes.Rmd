@@ -1,0 +1,23 @@
+---
+title: "Ciência de Dados - Seção 5: Ambiente em R"
+Pacotes
+---
+
+```{r}
+#instalar e carregar pacotes
+install.packages("e1071")
+library(e1071)
+```
+
+```{r}
+#descarregar pacote
+detach("package:e1071", unload = TRUE)
+#remover pacote
+remove.packages("e1071")
+```
+
+```{r}
+#Gráfico plotado
+plot(iris[,1:4])
+```
+
